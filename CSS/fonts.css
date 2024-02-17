@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Vazir;
+    font-weight: 400;
+    font-style: normal;
+    src: url(../assets/font/Vazir.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: Vazir;
+    font-weight: 700;
+    font-style: normal;
+    src: url(../assets/font/Vazir-Bold.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: Vazir;
+    font-weight: 500;
+    font-style: normal;
+    src: url(../assets/font/Vazir-Medium.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: VazirDigits;
+    font-weight: 400;
+    font-style: normal;
+    src: url(../assets/font/Vazir-FD-WOL.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: VazirDigits;
+    font-weight: 700;
+    font-style: normal;
+    src: url(../assets/font/Vazir-Bold-FD-WOL.woff2) format('woff2');
+}
+
+body, .btn{
+    font-family: Vazir;
+}
+
+
+
+.badge p, .item__header__date, .request-id{
+    font-family: VazirDigits;
+    
+}
+
+
