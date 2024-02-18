@@ -169,7 +169,6 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 7rem;
 }
 
 .item__header__title{
@@ -191,27 +190,14 @@ h1{
     font-size: 1.2rem;
 }
 
-@media screen and (min-width: 480px) {
-    .item__header{
-        gap: 14rem;
-    }
 
-    .title{
-        font-size: 1.6rem;
-    }
-}
 
 @media screen and (min-width: 768px) {
-    .item__header{
-        gap: 13rem;
+    .title{
+        font-size: 1.8rem;
     }
 }
 
-@media screen and (min-width: 1024px) {
-    .item__header{
-        gap: 15.6rem;
-    }
-}
 
 
 
